@@ -1,0 +1,29 @@
+.contact{
+    color:#2C3E50; 
+}
+.contact-form{
+    width:100%;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+input{
+    z-index: 2;
+}
+label{
+    z-index: 1;
+    color:#1abc9c;
+    margin-bottom: 8px;
+    top:-40px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+input:not(:placeholder-shown)+label{
+    opacity: 1;
+    top:-65px;
+}
+@media screen and(min-width:992px) {
+    .contact-form{
+        width:50%;
+    }   
+}

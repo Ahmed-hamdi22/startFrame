@@ -1,0 +1,20 @@
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #fff;
+  background-color: #1abc9c !important;
+  border-radius: 10px;
+}
+nav{
+    transition: all 0.5s;
+    background-color: #2C3E50 !important;
+}
+nav .navbar-toggler:focus {
+    box-shadow: none;
+ }
+ .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+.nav-link {
+    width: fit-content;
+ }

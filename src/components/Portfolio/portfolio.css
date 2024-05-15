@@ -1,0 +1,25 @@
+.line-port{
+    height: 4px;
+    width: 80px;
+    
+    background-color: #2C3E50;
+}
+.port{
+    color:#2C3E50; 
+}
+ .icon-plus{
+    visibility: hidden;
+    color:wheat;
+    }
+
+.poin-event{
+    cursor: pointer;
+}
+.poin-event:hover .icon-plus{
+    visibility: visible;
+
+}
+.poin-event:hover{
+   background-color: #1abc9cc5;
+    
+}
